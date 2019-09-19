@@ -1,0 +1,38 @@
+(ADISAKSHYA)
+Insert Routes
+
+api/insert/insertState
+api/insert/insertArea
+(DONE) api/insert/insertCitizens
+api/insert/insertCity
+api/insert/insertDigitalSignatures
+api/insert/insertGovtOfficial
+api/insert/insertProblemTag
+api/insert/insertProblem
+api/insert/insertStatus
+
+(MOHAK)
+Query Routes
+( utility ) api/query/queryState
+( utility ) api/query/queryArea
+( utility ) api/query/getAreaOfCitizen
+( utility ) api/query/getCitizenByPhoneNUmber
+( utility ) api/query/getCityBYGovtID
+( DONE ) api/query/getDigitalSignatures
+( utility ) api/query/getGovtEmpData
+( utility ) api/query/problemTagEvent
+( DONE ) api/query/problemFeed
+( utility ) api/query/getProblemOfUser
+( utility ) api/query/getStatusWithStatusCode
+api/query/statistics
+api/query/fastLane
+
+(ADISAKSHYA)
+Update Routes
+/api/update/upVoteProblem
+/api/update/downVoteProblem
+/api/update/resolveProblem
+
+(MOHAK)
+Delete Routes
+/api/delete/spamProblems

@@ -1,0 +1,14 @@
+{
+    "PORT": 8080,
+    "ENVIRONMENTS": {
+        "dev": 0,
+        "produnction": 1
+    },
+    "CITIZENS_APP_DATABASE": {
+        "enable": true,
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "citizens_app"
+    }
+}
