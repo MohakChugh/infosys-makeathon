@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
 module.exports = async function authToken (token) {
-    var decoded = await jwt.verify(token, 'ilovefuckingbitches')
+    var decoded = await jwt.verify(token, 'secretkey')
     return decoded;
 }

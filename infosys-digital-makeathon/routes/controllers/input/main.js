@@ -609,7 +609,7 @@ router.post('/auth/login', async (req, res) => {
                         "x-hasura-user-id": `${userid}`,
                     }
                 }
-                token = jwt.sign({ response }, 'ilovefuckingbitches');
+                token = jwt.sign({ response }, 'secretkey');
             })
             
             res.json(token)
@@ -647,7 +647,7 @@ router.post('/auth/login/govt', async (req, res) => {
                         "x-hasura-user-id": `${userid}`,
                     }
                 }
-                token = jwt.sign({ response }, 'ilovefuckingbitches');
+                token = jwt.sign({ response }, 'secretkey');
             })
             var json = {
                 'token': token,

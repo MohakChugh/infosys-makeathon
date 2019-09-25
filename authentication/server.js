@@ -28,7 +28,7 @@ app.post('/auth/login', async (req, res) => {
                         "x-hasura-user-id": `${userid}`,
                     }
                 }
-                token = jwt.sign({ response }, 'ilovefuckingbitches');
+                token = jwt.sign({ response }, 'secretkey');
             })
             
             res.send(token)
@@ -54,7 +54,7 @@ app.post('/auth/register', async (req, res) => {
 
 app.post('/hasura/query', (req, res) => {
     var token = req.body.token
-    var decoded = jwt.verify(token, 'ilovefuckingbitches')
+    var decoded = jwt.verify(token, 'secretkey')
     console.log(decoded)
     //get userid and use it for everything
     
