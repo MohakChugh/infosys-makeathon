@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/adisakshya/infosys-digital-makeathon#readme",
   "dependencies": {
-    "aws-sdk": "^2.528.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
     "connect-ensure-login": "^0.1.1",
